@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    float q,r;
+    printf("***************To compute Quotient and Remainder***************\n");
+    printf("Enter two number to divide:--\n");
+    printf("Enter the numerator:");
+    scanf("%d",&a);
+    printf("Enter the denominator:");
+    scanf("%d",&b);
+    q=(float)a/b;
+    r=a%b;
+    printf("Quotient is :%.3f\n",q);
+    printf("Remainder is :%.2f",r);
+}
