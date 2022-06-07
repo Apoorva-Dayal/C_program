@@ -1,0 +1,60 @@
+#include<stdio.h>
+// Function decleared
+int swap_using_3_int();
+int swap_using_2_int_with_add();
+int swap_using_2_int_with_mul();
+// Function defination
+int swap_using_2_int_with_mul(){
+printf("*****************Swapping two number using 2 integer using * and / *****************\n");
+    int a,b;
+    printf("Enter the 1stnumber: ");
+    scanf("%d",&a);
+    printf("Enter the 2ndnumber: ");
+    scanf("%d",&b);
+    printf("The value of a before swaping:%d\n",a);
+    printf("The value of b before swaping:%d\n",b);    
+    a=a*b;
+    b=a/b;
+    a=a/b;
+    printf("The value of a after swaping:%d\n",a);
+    printf("The value of b after swaping:%d\n",b);
+}
+int swap_using_2_int_with_add(){
+printf("*****************Swapping two number using 2 integer using + and - *****************\n");
+    int a,b;
+    printf("Enter the 1stnumber: ");
+    scanf("%d",&a);
+    printf("Enter the 2ndnumber: ");
+    scanf("%d",&b);
+    printf("The value of a before swaping:%d\n",a);
+    printf("The value of b before swaping:%d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("The value of a after swaping:%d\n",a);
+    printf("The value of b after swaping:%d\n",b);
+}
+int swap_using_3_int(){
+    printf("*****************Swapping two number using 3 integer*****************\n");
+    int a,b;
+    int c;
+    printf("Enter the 1stnumber: ");
+    scanf("%d",&a);
+    printf("Enter the 2ndnumber: ");
+    scanf("%d",&b);
+    printf("The value of a before swaping:%d\n",a);
+    printf("The value of b before swaping:%d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("The value of a after swaping:%d\n",a);
+    printf("The value of b after swaping:%d\n",b);    
+    }
+int main()
+{
+    // Function called
+    swap_using_3_int();
+    swap_using_2_int_with_add();
+    swap_using_2_int_with_mul();
+    return 0;
+}
