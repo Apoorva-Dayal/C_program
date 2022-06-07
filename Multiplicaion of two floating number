@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    float a,b;
+    printf("************To Multiply two floating point number with two digit after decimal************\n");
+    printf("Enter 1st number:");
+    scanf("%f",&a);
+    printf("Enter 2nd number:");
+    scanf("%f",&b);
+    printf("Multiplication of two number is:%.2f",a*b);
+    return 0;
+}
