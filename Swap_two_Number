@@ -48,7 +48,11 @@ int swap_using_3_int(){
     a=b;
     b=c;
     printf("The value of a after swaping:%d\n",a);
-    printf("The value of b after swaping:%d\n",b);    
+    printf("The value of b after swaping:%d\n",b);   
+
+     printf("The value of a after swaping:%d\n",a);
+    printf("The value of b after swaping:%d\n",b);
+     
     }
 int main()
 {
